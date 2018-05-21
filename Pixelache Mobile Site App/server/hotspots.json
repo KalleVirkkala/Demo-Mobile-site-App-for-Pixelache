@@ -1,0 +1,734 @@
+{  
+   "items":[  
+      {  
+         "title":"Kahvila, Pohjoisesplanadi 19, Helsinki ",
+         "lng":24.9506,
+         "lat":60.1680
+      },
+      {  
+         "title":"Kahvila, Olympiaranta 1, Helsinki ",
+         "lng":24.9582,
+         "lat":60.1609
+      },
+      {  
+         "title":"Finlandia-talo, Mannerheimintie 13, Helsinki ",
+         "lng":24.9324,
+         "lat":60.1753
+      },
+      {  
+         "title":"Kahvila, Aleksanterinkatu 21, Helsinki ",
+         "lng":24.9414,
+         "lat":60.1691
+      },
+      {  
+         "title":"Kahvila, Keskuskatu, Helsinki ",
+         "lng":24.9429,
+         "lat":60.1682
+      },
+      {  
+         "title":"Kahvila, Aleksanterinkatu 52, Helsinki ",
+         "lng":24.9418,
+         "lat":60.1686
+      },
+      {  
+         "title":"Ravintola, Helsinginkatu 56, Helsinki ",
+         "lng":24.9293,
+         "lat":60.1823
+      },
+      {  
+         "title":"Kahvila, Mannerheimintie 20, Helsinki ",
+         "lng":24.9387,
+         "lat":60.1693
+      },
+      {  
+         "title":"Puistoalue, Eteläesplanadi, Helsinki ",
+         "lng":24.9517,
+         "lat":60.1672
+      },
+      {  
+         "title":"Mediapaja, Metsäpurontie 19, Helsinki ",
+         "lng":24.9276,
+         "lat":60.2289
+      },
+      {  
+         "title":"Kahvila, Aurorankatu 13, Helsinki ",
+         "lng":24.9299,
+         "lat":60.1721
+      },
+      {  
+         "title":"Vierasvenesatama, Katajanokka, Helsinki ",
+         "lng":24.9650,
+         "lat":60.1695
+      },
+      {  
+         "title":"Kontupiste, Keinulaudankuja 4, Helsinki ",
+         "lng":25.0812,
+         "lat":60.2356
+      },
+      {  
+         "title":"Kahvila, Urho Kekkosen katu 1, Helsinki ",
+         "lng":24.9331,
+         "lat":60.1689
+      },
+      {  
+         "title":"Scandic Hotel, Mannerheimintie 46, Helsinki ",
+         "lng":24.9283,
+         "lat":60.1791
+      },
+      {  
+         "title":"Scandic Hotel, Mannerheimintie 10, Helsinki ",
+         "lng":24.9412,
+         "lat":60.1677
+      },
+      {  
+         "title":"Scandic Hotel, Katajanokanlaituri 7, Helsinki ",
+         "lng":24.9638,
+         "lat":60.1658
+      },
+      {  
+         "title":"Scandic Hotel, Eteläinen rautatiekatu 4, Helsinki ",
+         "lng":24.9324,
+         "lat":60.1707
+      },
+      {  
+         "title":"Scandic Hotel, Simonkatu 9, Helsinki ",
+         "lng":24.935,
+         "lat":60.1688
+      },
+      {  
+         "title":"Kahvila, Kaisaniemenkatu 3, Helsinki ",
+         "lng":24.9463,
+         "lat":60.1708
+      },
+      {  
+         "title":"Kahvila, Aleksanterinkatu 11, Helsinki ",
+         "lng":24.9467,
+         "lat":60.1691
+      },
+      {  
+         "title":"Kahvila, Yrjönkatu 30, Helsinki ",
+         "lng":24.9381,
+         "lat":60.1676
+      },
+      {  
+         "title":"Kahvila, Itäkeskus, Helsinki ",
+         "lng":25.0797,
+         "lat":60.2109
+      },
+      {  
+         "title":"Kahvila, Kluuvikatu 7, Helsinki ",
+         "lng":24.9474,
+         "lat":60.1695
+      },
+      {  
+         "title":"Leirintäalue, Karavaanikatu 4, Helsinki ",
+         "lng":25.1150,
+         "lat":60.2063
+      },
+      {  
+         "title":"Drinkkibaari, Annankatu 8, Helsinki ",
+         "lng":24.9408,
+         "lat":60.1637
+      },
+      {  
+         "title":"Kahvila, Aleksanterinkatu 26, Helsinki ",
+         "lng":24.9541,
+         "lat":60.1689
+      },
+      {  
+         "title":"Kahvila, Aleksanterinkatu 26, Helsinki ",
+         "lng":24.9541,
+         "lat":60.1689
+      },
+      {  
+         "title":"Biljardibaari, Mannerheimintie 6, Helsinki ",
+         "lng":24.9422,
+         "lat":60.1670
+      },
+      {  
+         "title":"Kahvila, Iso-Roobertinkatu 28, Helsinki ",
+         "lng":24.9404,
+         "lat":60.1627
+      },
+      {  
+         "title":"Olutravintola, Hitsaajankatu 14, Helsinki ",
+         "lng":25.0302,
+         "lat":60.1926
+      },
+      {  
+         "title":"Ravintola, Tallberginkatu 1, Helsinki ",
+         "lng":24.9026,
+         "lat":60.1618
+      },
+      {  
+         "title":"Kauppaksekus, Hämeentie 111, Helsinki ",
+         "lng":24.9680,
+         "lat":60.2033
+      },
+      {  
+         "title":"Kauppakeskus, Itämerenkatu 21, Helsinki ",
+         "lng":24.9106,
+         "lat":60.1634
+      },
+      {  
+         "title":"Kahvila, Mannerheiminaukio 2, Helsinki ",
+         "lng":24.9368,
+         "lat":60.1718
+      },
+      {  
+         "title":"Kulttuuritehdas, Töölönkatu 51 B, Helsinki ",
+         "lng":24.9200,
+         "lat":60.1840
+      },
+      {  
+         "title":"Ravintola, Töölöntorinkatu 2, Helsinki ",
+         "lng":24.9247,
+         "lat":60.1777
+      },
+      {  
+         "title":"Ravintola, Mäkelänkatu 52, Helsinki ",
+         "lng":24.9507,
+         "lat":60.1968
+      },
+      {  
+         "title":"Musiikkiravintola, Toinen linja 2, Helsinki ",
+         "lng":24.9504,
+         "lat":60.1806
+      },
+      {  
+         "title":"Ravintola, Vuorikatu 16, Helsinki ",
+         "lng":24.9470,
+         "lat":60.171
+      },
+      {  
+         "title":"Elokuvateatteri, Salomonkatu 15, Helsinki ",
+         "lng":24.9311,
+         "lat":60.1693
+      },
+      {  
+         "title":"Musiikkibaari, Snellmaninkatu 13, Helsinki ",
+         "lng":24.9536,
+         "lat":60.1718
+      },
+      {  
+         "title":"Ravintola, Yliopistonkatu 8, Helsinki ",
+         "lng":24.9467,
+         "lat":60.1696
+      },
+      {  
+         "title":"Ravintola, Runeberginkatu 28, Helsinki ",
+         "lng":24.9217,
+         "lat":60.1748
+      },
+      {  
+         "title":"Kirjasto, Hämeentie 135, Helsinki ",
+         "lng":24.9753,
+         "lat":60.2085
+      },
+      {  
+         "title":"Kirjasto, Isonnevantie 16, Helsinki ",
+         "lng":24.8924,
+         "lat":60.2140
+      },
+      {  
+         "title":"Kirjasto, Turunlinnantie 1, Helsinki ",
+         "lng":25.0807,
+         "lat":60.2121
+      },
+      {  
+         "title":"Kirjasto, Viides linja 11, Helsinki ",
+         "lng":24.9535,
+         "lat":60.1834
+      },
+      {  
+         "title":"Kirjasto, Klaneettitie 5, Helsinki ",
+         "lng":24.8758,
+         "lat":60.2387
+      },
+      {  
+         "title":"Kirjasto, Elielinaukio 2, Helsinki ",
+         "lng":24.9387,
+         "lat":60.1715
+      },
+      {  
+         "title":"Kirjasto, Ostostie 4, Helsinki ",
+         "lng":25.0835,
+         "lat":60.2381
+      },
+      {  
+         "title":"Kirjasto, Koulutanhua 2, Helsinki ",
+         "lng":25.0552,
+         "lat":60.1790
+      },
+      {  
+         "title":"Kirjasto, Pajalahdentie 10, Helsinki ",
+         "lng":24.8848,
+         "lat":60.1590
+      },
+      {  
+         "title":"Kirjasto, Ala-Malmin tori 1, Helsinki ",
+         "lng":25.0143,
+         "lat":60.2506
+      },
+      {  
+         "title":"Kirjasto, Riihitie 22, Helsinki ",
+         "lng":24.8758,
+         "lat":60.1967
+      },
+      {  
+         "title":"Kirjasto, Kylänvanhimmantie 27, Helsinki ",
+         "lng":24.9627,
+         "lat":60.2279
+      },
+      {  
+         "title":"Kirjasto, Paloheinäntie 22, Helsinki ",
+         "lng":24.9413,
+         "lat":60.2495
+      },
+      {  
+         "title":"Kirjasto, Rautatieläisenkatu 8, Helsinki ",
+         "lng":24.9360,
+         "lat":60.2011
+      },
+      {  
+         "title":"Kirjasto, Rikhardinkatu 3, Helsinki ",
+         "lng":24.9464,
+         "lat":60.1662
+      },
+      {  
+         "title":"Kirjasto, Seulastentie 11, Helsinki ",
+         "lng":24.9962,
+         "lat":60.2752
+      },
+      {  
+         "title":"Kirjasto, Topeliuksenkatu 6, Helsinki ",
+         "lng":24.9177,
+         "lat":60.1837
+      },
+      {  
+         "title":"Kirjasto, Päijänteentie 5, Helsinki ",
+         "lng":24.9624,
+         "lat":60.1921
+      },
+      {  
+         "title":"Kirjasto, Viikinkaari 11, Helsinki ",
+         "lng":25.0126,
+         "lat":60.2274
+      },
+      {  
+         "title":"Kirjasto, Mosaiikkitori 2, Helsinki ",
+         "lng":25.1433,
+         "lat":60.2083
+      },
+      {  
+         "title":"Sanomatalo, Elielinaukio 1, Helsinki ",
+         "lng":24.9391,
+         "lat":60.1715
+      },
+      {  
+         "title":"Painobaari, Postikuja 2, Helsinki ",
+         "lng":24.9384,
+         "lat":60.1722
+      },
+      {  
+         "title":"Hietsu Cafe, Hiekkarannantie, Helsinki ",
+         "lng":24.9062,
+         "lat":60.1728
+      },
+      {  
+         "title":"Luckan, Simonkatu 8, Helsinki ",
+         "lng":24.9368,
+         "lat":60.1689
+      },
+      {  
+         "title":"Baari, Yliopistonkatu 8, Helsinki ",
+         "lng":24.9467,
+         "lat":60.1696
+      },
+      {  
+         "title":"Baari, Eerikinkatu 27, Helsinki ",
+         "lng":24.9293,
+         "lat":60.1652
+      },
+      {  
+         "title":"Baari, Mannerheimintie 22, Helsinki ",
+         "lng":24.9374,
+         "lat":60.1702
+      },
+      {  
+         "title":"Cafe Carusel, Kompassitori, Merisatama, Kaivopuisto, Ehrenströmintie 1 , Helsinki ",
+         "lng":24.9544,
+         "lat":60.1541
+      },
+      {  
+         "title":"Lasipalatsi, Mannerheimintie 22-24, Helsinki ",
+         "lng":24.9374,
+         "lat":60.1702
+      },
+      {  
+         "title":"Himasali, Tallberginkatu 1, Helsinki ",
+         "lng":24.9026,
+         "lat":60.1618
+      },
+      {  
+         "title":"Cafe Ursula Aleksi, Aleksanterinkatu 13, Helsinki ",
+         "lng":24.9461,
+         "lat":60.1690
+      },
+      {  
+         "title":"Ravintola Kola, Helsinginkatu 13, Helsinki ",
+         "lng":24.9553,
+         "lat":60.1873
+      },
+      {  
+         "title":"Ravintola Hiutale, Annankatu 4, Helsinki ",
+         "lng":24.9418,
+         "lat":60.1630
+      },
+      {  
+         "title":"Tapanilan urheilukeskus, Erätie 3, Helsinki ",
+         "lng":25.0170,
+         "lat":60.2657
+      },
+      {  
+         "title":"Ciao Cafe Gelateria, Ruoholahden kauppakeskus, Helsinki ",
+         "lng":24.9106,
+         "lat":60.1634
+      },
+      {  
+         "title":"Ravintola Grecia, Katajanokanlaituri 5, Helsinki ",
+         "lng":24.9620,
+         "lat":60.1664
+      },
+      {  
+         "title":"Cafe Ursula, Ehrenströmintie 3, Helsinki ",
+         "lng":24.9605,
+         "lat":60.1551
+      },
+      {  
+         "title":"Cafe Carmel, Laajalahdentie 11 A, Helsinki ",
+         "lng":24.8758,
+         "lat":60.1977
+      },
+      {  
+         "title":"HKL bussit, monia, Helsinki ",
+         "lng":24.9356,
+         "lat":60.1699
+      },
+      {  
+         "title":"Bierhuis Rotterdam, Tennispalatsinaukio 4, Helsinki ",
+         "lng":24.9318,
+         "lat":60.1692
+      },
+      {  
+         "title":"Ravintola Memphis, Asema-aukio 2, Helsinki ",
+         "lng":24.9393,
+         "lat":60.1704
+      },
+      {  
+         "title":"Public Corner, Mikonkatu 15, Helsinki ",
+         "lng":24.9454,
+         "lat":60.1710
+      },
+      {  
+         "title":"Ravintola Virgin Oil Co, Mannerheimintie 5, Helsinki ",
+         "lng":24.9398,
+         "lat":60.1692
+      },
+      {  
+         "title":"HUS Kirurginen Sairaala, Tehtaankatu, Helsinki ",
+         "lng":24.9386,
+         "lat":60.1582
+      },
+      {  
+         "title":"Cafe´Picnic, Tehtaankatu 11, Helsinki ",
+         "lng":24.9454,
+         "lat":60.1584
+      },
+      {  
+         "title":"Cafe´Picnic, Kauppakeskus Sello, Helsinki ",
+         "lng":24.8099,
+         "lat":60.2183
+      },
+      {  
+         "title":"Cafe´Picnic, Topeliuksenkatu 8, Helsinki ",
+         "lng":24.9173,
+         "lat":60.1841
+      },
+      {  
+         "title":"Cafe´Picnic, Runeberginkatu 46, Helsinki ",
+         "lng":24.9228,
+         "lat":60.1793
+      },
+      {  
+         "title":"Cafe´Picnic, Mikonkatu 5, Helsinki ",
+         "lng":24.9460,
+         "lat":60.1692
+      },
+      {  
+         "title":"Cafe´Picnic, Kylänvanhimmantie 29, Helsinki ",
+         "lng":24.9624,
+         "lat":60.2284
+      },
+      {  
+         "title":"Cafe´Picnic, Melkonkatu 28, Helsinki ",
+         "lng":24.8812,
+         "lat":60.1537
+      },
+      {  
+         "title":"Cafe´Picnic, Lauttasaarentie 29, Helsinki ",
+         "lng":24.8812,
+         "lat":60.1605
+      },
+      {  
+         "title":"Cafe´Picnic, Kauppakeskus Kluuvi, Helsinki ",
+         "lng":24.9480,
+         "lat":60.1691
+      },
+      {  
+         "title":"Cafe´Picnic, Kasarmikatu 42, Helsinki ",
+         "lng":24.9474,
+         "lat":60.1659
+      },
+      {  
+         "title":"Cafe´Picnic, Itämerenkatu 11, Helsinki ",
+         "lng":24.9167,
+         "lat":60.1637
+      },
+      {  
+         "title":"Cafe´Picnic, Hämeentie 29, Helsinki ",
+         "lng":24.9623,
+         "lat":60.1875
+      },
+      {  
+         "title":"Cafe´Picnic, Fredrikinkatu 28, Helsinki ",
+         "lng":24.9362,
+         "lat":60.1645
+      },
+      {  
+         "title":"Cafe´ Picnic, Kauppakeskus Kamppi, Helsinki ",
+         "lng":24.9331,
+         "lat":60.1689
+      },
+      {  
+         "title":"Cafe´Picnic, Forumpohjakerros, Helsinki ",
+         "lng":24.9387,
+         "lat":60.1693
+      },
+      {  
+         "title":"Cafe´Picnic, ForumKukontori, Helsinki ",
+         "lng":24.9387,
+         "lat":60.1691
+      },
+      {  
+         "title":"Messukeskus, Messuaukio 1, Helsinki ",
+         "lng":24.9359,
+         "lat":60.2020
+      },
+      {  
+         "title":"Messukeskus, Messuaukio 1, Helsinki ",
+         "lng":24.9359,
+         "lat":60.2020
+      },
+      {  
+         "title":"cafe corona, Eerikinkatu 11, Helsinki ",
+         "lng":24.9342,
+         "lat":60.1668
+      },
+      {  
+         "title":"Töölön kisahalli, Paavo Nurmen kuja 1, Helsinki ",
+         "lng":24.9253,
+         "lat":60.1841
+      },
+      {  
+         "title":"Musta Pörssi, Urho Kekkosenkatu 1 A, Helsinki ",
+         "lng":25.9331,
+         "lat":60.1689
+      },
+      {  
+         "title":"Ravintola Kameli, Kaisaniemenkatu 4, Helsinki ",
+         "lng":24.9464,
+         "lat":60.1712
+      },
+      {  
+         "title":"Kotipizza Kruunuhaka, Mariankatu 10, Helsinki ",
+         "lng":24.9563,
+         "lat":60.1706
+      },
+      {  
+         "title":"Finnet Focus Oy, Sinebrychoffinkatu 11, Helsinki ",
+         "lng":24.9347,
+         "lat":60.1620
+      },
+      {  
+         "title":"Hesburger, Aleksanterinkatu 17, Helsinki ",
+         "lng":24.9437,
+         "lat":60.1690
+      },
+      {  
+         "title":"Hesburger, Itäkatu 1, Helsinki ",
+         "lng":25.0853,
+         "lat":60.2127
+      },
+      {  
+         "title":"Hesburger, Mannerheimintie 18, Helsinki ",
+         "lng":24.9390,
+         "lat":60.1690
+      },
+      {  
+         "title":"Hesburger, Hämeentie 2, Helsinki ",
+         "lng":24.9504,
+         "lat":60.1804
+      },
+      {  
+         "title":"Hesburger, Helsinginkatu 28, Helsinki ",
+         "lng":24.9478,
+         "lat":60.1863
+      },
+      {  
+         "title":"Hesburger, Itäkatu 7, Helsinki ",
+         "lng":25.0804,
+         "lat":60.2104
+      },
+      {  
+         "title":"Hesburger, Kauppakartanonkatu 3, Helsinki ",
+         "lng":25.0832,
+         "lat":60.2080
+      },
+      {  
+         "title":"Hesburger, Vuorikatu 14, Helsinki ",
+         "lng":24.9470,
+         "lat":60.1717
+      },
+      {  
+         "title":"Hesburger, Kasarmikatu 19, Helsinki ",
+         "lng":24.9482,
+         "lat":60.1651
+      },
+      {  
+         "title":"Hesburger, Kaupintie 21, Helsinki ",
+         "lng":24.8799,
+         "lat":60.2286
+      },
+      {  
+         "title":"Hesburges, Varikkotie 2, Helsinki ",
+         "lng":25.0640,
+         "lat":60.2090
+      },
+      {  
+         "title":"Hesburger, Lirokuja 1, Helsinki ",
+         "lng":25.0801,
+         "lat":60.2337
+      },
+      {  
+         "title":"Hesburger, Vähänkyröntie 2, Helsinki ",
+         "lng":24.9464,
+         "lat":60.2070
+      },
+      {  
+         "title":"Hesburger, Malmin kauppatie 18, Helsinki ",
+         "lng":25.0117,
+         "lat":60.2525
+      },
+      {  
+         "title":"Hesburger, Ratapihantie 1, Helsinki ",
+         "lng":24.9359,
+         "lat":60.1969
+      },
+      {  
+         "title":"Hesburger, Rapakivenkaari 3, Helsinki ",
+         "lng":24.9995,
+         "lat":60.2409
+      },
+      {  
+         "title":"Hesburger, Porkkalankatu 9, Helsinki ",
+         "lng":24.9060,
+         "lat":60.1641
+      },
+      {  
+         "title":"Hesburger, Fredrikinkatu 65, Helsinki ",
+         "lng":24.9301,
+         "lat":60.1694
+      },
+      {  
+         "title":"Hesburger, Vuotie 45, Helsinki ",
+         "lng":25.1471,
+         "lat":60.2071
+      },
+      {  
+         "title":"Hesburger, Tammasaarenkatu 3, Helsinki ",
+         "lng":24.9054,
+         "lat":60.1615
+      },
+      {  
+         "title":"Hilton Helsinki ",
+         "lng":24.8732,
+         "lat":60.1920
+      },
+      {  
+         "title":"High Tech Center, Porkkalankatu 20, Helsinki ",
+         "lng":24.9112,
+         "lat":60.1644
+      },
+      {  
+         "title":"Hotelli Anna, Annankatu 1, Helsinki ",
+         "lng":24.9427,
+         "lat":60.163
+      },
+      {  
+         "title":"Hilton Helsinki ",
+         "lng":24.9515,
+         "lat":60.1772
+      },
+      {  
+         "title":"Lindström talo, Lautatarhankatu 6, Helsinki ",
+         "lng":24.9702,
+         "lat":60.1892
+      },
+      {  
+         "title":"Hotelli Holiday Inn, Elielinaukio 5, Helsinki ",
+         "lng":24.9399,
+         "lat":60.1723
+      },
+      {  
+         "title":"Marina congress center, Katajanokanlaituri 6, Helsinki ",
+         "lng":24.9702,
+         "lat":60.1892
+      },
+      {  
+         "title":"Wayne´s coffee, Itäkatu 3, Helsinki ",
+         "lng":25.0842,
+         "lat":60.2118
+      },
+      {  
+         "title":"Song house ravintola, Mechelinkatu 1, Helsinki ",
+         "lng":24.9216,
+         "lat":60.1659
+      },
+      {  
+         "title":"Wayne´s coffee, Itäkatu 5, Helsinki ",
+         "lng":25.0832,
+         "lat":60.2114
+      },
+      {  
+         "title":"Ravintola Kipsari (TaiK), Hämeentie 135, Helsinki ",
+         "lng":24.9753,
+         "lat":60.2085
+      },
+      {  
+         "title":"Kuntatalo, Toinen linja 14, Helsinki ",
+         "lng":24.9411,
+         "lat":60.1844
+      },
+      {  
+         "title":"Ravintola, Vanhaistentie 3, Helsinki ",
+         "lng":24.8853,
+         "lat":60.2423
+      },
+      {  
+         "title":"Kannelklubi, ravintola., Vanhaistentie 3, Helsinki ",
+         "lng":24.8856,
+         "lat":60.2423
+      }
+   ]
+}

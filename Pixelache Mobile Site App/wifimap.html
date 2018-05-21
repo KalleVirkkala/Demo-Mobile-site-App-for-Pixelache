@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Map</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+		<script src="js/jquery.js"></script>
+		<script src="_assets/js/index.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbePafkCv64WYgBWKv1TpfU8itTmrHcKk"></script>
+
+
+<script type="text/javascript">
+
+	
+	
+	
+$(document).on("pageshow", "#two", function () {
+    var defaultLatLng = new google.maps.LatLng(60.174231, 24.940639);  // Default to Helsinki
+    if ( navigator.geolocation ) {
+        function success(pos) {
+            // Location found, show map with these coordinates
+            drawMap(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
+        }
+        function fail(error) {
+            drawMap(defaultLatLng);  // Failed to find location, show default map
+        }
+        // Find the users current position.  Cache the location for 5 minutes, timeout after 6 seconds
+        navigator.geolocation.getCurrentPosition(success, fail, {maximumAge: 500000, enableHighAccuracy:true, timeout: 6000});
+    } else {
+        drawMap(defaultLatLng);  // No geolocation support, show default map
+    }
+
+	});	
+    function drawMap(latlng) {
+        var myOptions = {
+            zoom: 14,
+            center: latlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+		
+        var map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
+        // Add an overlay to the map of current lat/lng
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            title: "Greetings!",
+			icon : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+        });
+    
+//GET markers from json file
+
+  $.getJSON("hotspots.json", {}, function(data){ 
+			$.each(data.items, function(i, item){
+			
+				
+				var marker = new google.maps.Marker({
+					position: new google.maps.LatLng(item.lat, item.lng),
+					map: map,
+					title: item.title 
+					
+				});
+				
+			
+				
+				
+			
+				var infowindow = new google.maps.InfoWindow({content: "<h3>"+ item.title +"</h3>"});
+				
+				
+				
+				google.maps.event.addListener(marker, 'click', function() { 
+				map.setCenter(marker.getPosition());
+				 
+					
+					infowindow.open(map, marker); 
+					
+							
+							  
+							
+							 
+						}); 
+						
+						
+						
+						google.maps.event.addListener(map, 'click', function() {
+						infowindow.close();
+						});
+						
+						
+						
+				}); 
+			
+		});
+		
+
+				
+
+			
+ 
+			
+				
+				
+	
+}	
+</script>
+
+
+
+</head>
+<body>
+<div data-role="page" id="two">
+    <div data-role="header" id="home" >
+    <h1>Maps</h1>
+	<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+			<a href="#" class="ui-btn" data-rel="back">Back</a>
+    </div>
+           <div data-role="content" class="ui-content">
+            
+                <div id="map-canvas" style="width: 100%; height:450px;"></div>
+      </div>
+<div data-role="panel" data-display="push" data-theme="b" id="nav-panel">
+       				 
+					<a href="index.html" rel="external" class="ui-btn ui-corner-all" >Home</a>
+                	<a href="page1.html"rel="external" class="ui-btn ui-corner-all">Timescedule</a>
+    				<a href="page2.html" rel="external"class="ui-btn ui-corner-all">Map</a>
+					<a href="day1.html"rel="external" class="ui-btn ui-corner-all">Events</a>
+					<a href="info.html" class="ui-btn ui-corner-all">Info</a>	
+					<a href="page5.html" class="ui-btn ui-corner-all">Social</a>
+               
+           
+       				 
+   			   </div>
+	
+
+</body>
+</html>

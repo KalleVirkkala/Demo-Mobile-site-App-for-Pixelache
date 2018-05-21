@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+        <head>
+		
+			<meta charset="utf-8"></meta>
+            <meta content="width=device-width, initial-scale=1" name="viewport"></meta>
+            <title>Info</title>
+            <link href="favicon.ico" rel="shortcut icon"></link>
+            <link href="css/themes/default/jquery.mobile-1.4.5.min.css" rel="stylesheet"></link>
+            <link href="_assets/css/jqm-demos.css" rel="stylesheet"></link>
+            <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"></link>
+            <script src="js/jquery.js" style=""></script>
+            <script src="_assets/js/index.js"></script>
+            <script src="js/jquery.mobile-1.4.5.min.js"></script>
+          
+          <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbePafkCv64WYgBWKv1TpfU8itTmrHcKk"></script>
+        	
+<style>
+
+	</style>
+	<script type="text/javascript">
+
+	
+	
+	
+$(document).on("pageshow", "#two", function () {
+    var defaultLatLng = new google.maps.LatLng(60.174231, 24.940639);  // Default to Helsinki
+    if ( navigator.geolocation ) {
+        function success(pos) {
+            // Location found, show map with these coordinates
+            drawMap(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
+        }
+        function fail(error) {
+            drawMap(defaultLatLng);  // Failed to find location, show default map
+        }
+        // Find the users current position.  Cache the location for 5 minutes, timeout after 6 seconds
+        navigator.geolocation.getCurrentPosition(success, fail, {maximumAge: 500000, enableHighAccuracy:true, timeout: 6000});
+    } else {
+        drawMap(defaultLatLng);  // No geolocation support, show default map
+    }
+
+	});	
+    function drawMap(latlng) {
+        var myOptions = {
+            zoom: 14,
+            center: latlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+		
+        var map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
+        // Add an overlay to the map of current lat/lng
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            title: "Greetings!",
+			icon : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+        });
+    
+//GET markers from json file
+
+  $.getJSON("server/hotspots.json", {}, function(data){ 
+			$.each(data.items, function(i, item){
+			
+				
+				var marker = new google.maps.Marker({
+					position: new google.maps.LatLng(item.lat, item.lng),
+					map: map,
+					title: item.title 
+					
+				});
+				
+			
+				
+				
+			
+				var infowindow = new google.maps.InfoWindow({content: "<h3>"+ item.title +"</h3>"});
+				
+				
+				
+				google.maps.event.addListener(marker, 'click', function() { 
+				map.setCenter(marker.getPosition());
+				 
+					
+					infowindow.open(map, marker); 
+					
+							
+							  
+							
+							 
+						}); 
+						
+						
+						
+						google.maps.event.addListener(map, 'click', function() {
+						infowindow.close();
+						});
+						
+						
+						
+				}); 
+			
+		});
+		
+
+				
+
+			
+ 
+			
+				
+				
+	
+}
+
+</script>
+
+        </head>
+
+	
+	<body >
+	<div data-role="page" id="one">
+		<div data-role="header" id="home">
+			<h1 role="banner">Info</h1>
+			<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+			<a href="#" class="ui-btn" data-rel="back">Back</a>
+		</div>
+		
+		<div data-role="main" class="ui-content"></div>
+		
+		<div data-role="content">
+			<div data-role="collapsible">
+				<h2 class="ui-btn ui-btn-icon-right ui-icon-info">Info about the Event</h2>
+				<p>Pixelache Helsinki is a transdisciplinary platform for experimental art, design, research and activism.</p>
+				
+				<p>Amongst our fields of interest are: experimental interaction and electronics; renewable energy production/use; 
+				bioarts and art-science culture; grassroot organising and networks; politics and economics of media/technology; 
+				alternative economic cultures; VJ culture and audiovisual performances; media literacy and engaging environmental issues.</p>
+		
+			</div>
+			
+			<div data-role="collapsible">
+				<h2 class="ui-btn ui-btn-icon-right ui-icon-phone">Contact</h2>
+				<p>Contact e-mail: office [-at-] pixelache dot ac <br>
+				tel: +358-50-4657929 / Nathalie Aubret (Pixelache Helsinki coordinator)<br>
+				<br>
+				Address:<br>
+				Kaasutehtaankatu 1/21 Suvilahti (Rakennus/Building 7)<br>
+				00540 Helsinki Finland<br>
+				<br>
+				Y-tunnus: 1879799-4<br>
+				</p>
+			</div>
+			
+			<div data-role="collapsible" >
+				<h2 class="ui-btn ui-btn-icon-right ui-icon-location">Wifi / hotspot</h2>
+			<p>Almost all Café's ,Hotels and resturants in Helsinki offer free wifi.
+				But if you are in need to get online there are good webpages like <a href="http://www.hel.fi/palvelukartta/?lang=fi&search=wlan&city=helsinki">VisitHelsinki</a> and <a href="http://hotspots.fi/en">Hotspots.fi</a>
+				That offer information about wifi/wlan Hotspots in Helsinki and Finland.</p></br>
+					<p>Below is a hotspots map that is hosted by Hotspots.fi</p>
+		<p><a href="#two" class="ui-btn ui-shadow ui-corner-all">Show Wifi hotspot Map</a></p>
+				
+				
+				</div>
+				<div data-role="collapsible">
+				<h2 class="ui-btn ui-btn-a ui-btn-icon-right ui-icon-navigation">Public transport</h2>
+				<a id="reitti" href="http://m.reittiopas.fi/en/">This link will lead you to Reittiopas</a>
+				<p>Reittiopas gives You advice on the best public transport connection to your destination within city traffic Instructions</p>
+			</div>
+		
+		</div>	
+		<div data-role="panel" data-display="push" data-theme="b" id="nav-panel">	
+       			<div data-role="collapsibleset">
+					
+					<a href="index.html" rel="external" class="ui-btn ui-corner-all" >Home</a>
+					<a href="page1.html" rel="external" class="ui-btn ui-corner-all">Timescedule</a>
+					<a href="day1.html" class="ui-btn ui-corner-all">Events</a>
+					<a href="page2.html" rel="external" class="ui-btn ui-corner-all">Map</a>
+					<a href="info.html" rel="external" class="ui-btn ui-corner-all">Info</a>	
+					<a href="page5.html" class="ui-btn ui-corner-all">Social</a>
+				</div>
+				<style>
+				img{
+					height:10%;
+					width:10%;
+				
+				}
+				
+				</style>
+				<p float="mid">Follow us on</p>
+				<a href="http://www.facebook.com/pixelache" target="_blank">
+				<img src="images/Facebook.png" alt=""></a>
+				<a href="http://twitter.com/pixelache" target="_blank"><img src="images/Twitter.png" alt=""></a>
+				<a href="https://vimeo.com/pixelache" target="_blank"><img src="images/vimeo.png" alt=""></a>
+				<a href="http://www.flickr.com/photos/pixelache/"><img src="images/flickr.png" alt="Flickr"></a> 
+				<a href="http://bambuser.com/channel/pixelversity"><img src="images/Bambuser.png" alt="Bambuser"></a>
+				<a href="https://github.com/pixelache"> <img src="images/github.png" alt="GitHub"></a>
+   		 </div>
+			   
+		<div data-role="footer" data-position="fixed">
+			<h1></h1>
+		</div>	
+
+</div>
+
+<div data-role="page"id="two" data-theme="a">
+
+	<div data-role="header">
+		<h1>Wifi Hotspots in Helsinki, Hosted by Hotspots.fi</h1>
+		<a href="info.html" class="ui-btn" data-rel="back">Back</a>
+	</div><!-- /header -->
+
+		 <div data-role="content" class="ui-content" id="content" >
+            <div>
+                <div id="map-canvas" style="width:100%; height:500px"></div>
+      
+
+
+</div><!-- /page two -->
+	</body>
+</html>

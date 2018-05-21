@@ -1,0 +1,35 @@
+﻿
+{
+	
+		
+   	 "items": [
+       	 	{
+			"time": "11.30",
+            "title": "Event 1",
+            "description": "SOMETHING INFO",
+			"detail":"oiahdsgföiousdhguihg ijasfruy gewqiuhg fiugewqrhiuw waeiulh fbwae ghfaweiufg iuwaer awjehbg earwjgh awiuhg oaierg iuearg kjaherg aelijg aerglij aerhgoi argkljharelkdjg i eraoihgaköjdhfgzdkjb",
+            "lat": 60.171344,
+            "lng": 24.941347,
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/page4.html#two"
+        	},
+        	{
+			"time": "12.30",
+            "title": "Event 2",
+            "description": "SOMETHING INFO",
+	    "detail":"oiahdsgföiousdhguihg ijasfruy gewqiuhg fiugewqrhiuw waeiulh fbwae ghfaweiufg iuwaer awjehbg earwjgh awiuhg oaierg iuearg kjaherg aelijg aerglij aerhgoi argkljharelkdjg i eraoihgaköjdhfgzdkjb",
+            "lat": 60.168505,
+            "lng": 24.938858
+        	},
+        	{
+			"time": "13.50",
+            "title": "Event 3",
+            "description": "SOMETHING INFO",
+	    "detail":"oiahdsgföiousdhguihg ijasfruy gewqiuhg fiugewqrhiuw waeiulh fbwae ghfaweiufg iuwaer awjehbg earwjgh awiuhg oaierg iuearg kjaherg aelijg aerglij aerhgoi argkljharelkdjg i eraoihgaköjdhfgzdkjb",
+            "lat": 60.169636,
+            "lng": 24.948771
+     		}
+
+		
+	    ]
+	
+}

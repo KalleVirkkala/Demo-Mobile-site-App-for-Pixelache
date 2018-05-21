@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Events</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+		<script src="js/jquery.js"></script>
+		<script src="_assets/js/index.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		
+		<script>
+  $(document).on("pageinit", "#page", function(){
+        $.getJSON("server/events.json", function(data){
+            var output = '';
+            $.each(data.items, function(index, item){     
+			if(item.day == 3){
+             output += '<div data-role="collapsible" data-collapsed="true" id="'+item.openid+'"><h1>'+item.title+'</h1><img src="'+item.img+'"><iframe src='+item.maplink+'width="100" height="200" frameborder="0" style="border:0"></iframe><h4>'+item.date+'  '+item.adress+'</h4><p>' + item.detail + '</p></div>';
+			
+			}});
+			
+            $('#listitem').html(output);
+			$('#collapseref').collapsibleset("refresh");
+			
+			
+			
+	 }); 	
+			
+			setTimeout(function() {
+      // Do something after 5 seconds
+	  $(window.location.hash).collapsible('expand');
+		}, 300);
+		
+	 
+        });
+ 
+			
+</script>
+	<style>
+.ui-collapsible-content {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    height: auto; 
+    overflow: hidden;
+}
+.ui-collapsible-content-collapsed {
+    display: block;
+    height: 0;
+    padding: 0 16px;
+}
+img {
+    max-width: 98%;
+    max-height: 98%;
+}
+.iframe{
+float:right;
+}
+@media screen and (max-width: 300px) {
+iframe{ width:90%; height:90%;
+}
+}
+</style>
+	</head>
+	<body id="page">
+	
+			
+			
+	
+			
+		
+	
+		
+    <div data-role="header">
+<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+			<a href="#" class="ui-btn" data-rel="back">Back</a>
+            <h1 role="banner">Events</h1>
+	<div data-role="navbar" data data-iconpos="top">
+		<ul>
+ <li><a href="day1.html" rel="external">Day1</a></li>
+		<li><a href="day2.html" rel="external">Day2</a></li>
+		<li><a href="day3.html" class="ui-btn-active" rel="external" >Day3</a></li>
+		
+		
+        
+       
+		</ul>
+	</div>
+  </div>
+
+<div data-role="main" class="ui-content">
+
+<div data-role="collapsibleset" id="collapseref" >
+<div data-role="listview" data-inset="true" data-filter="true" id="listitem">
+
+
+</div>
+</div>
+
+</div>
+
+
+		 
+		<div data-role="panel" data-display="push" data-theme="b" id="nav-panel">	
+       			<div data-role="collapsibleset">
+					
+					<a href="index.html" rel="external" class="ui-btn ui-corner-all" >Home</a>
+					<a href="page1.html" rel="external" class="ui-btn ui-corner-all">Timescedule</a>
+					<a href="day1.html" class="ui-btn ui-corner-all">Events</a>
+					<a href="page2.html" rel="external" class="ui-btn ui-corner-all">Map</a>
+					<a href="info.html" rel="external" class="ui-btn ui-corner-all">Info</a>	
+					<a href="page5.html" class="ui-btn ui-corner-all">Social</a>
+				</div>
+				<style>
+				#img2{
+					height:10%;
+					width:10%;
+				
+				}
+				
+				</style>
+				<p float="mid">Follow us on</p>
+				<a href="http://www.facebook.com/pixelache" target="_blank">
+				<img id="img2" src="images/Facebook.png" alt=""></a>
+				<a href="http://twitter.com/pixelache" target="_blank"><img id="img2" src="images/Twitter.png" alt=""></a>
+				<a href="https://vimeo.com/pixelache" target="_blank"><img id="img2" src="images/vimeo.png" alt=""></a>
+				<a href="http://www.flickr.com/photos/pixelache/"><img id="img2" src="images/flickr.png" alt="Flickr"></a> 
+				<a href="http://bambuser.com/channel/pixelversity"><img id="img2" src="images/Bambuser.png" alt="Bambuser"></a>
+				<a href="https://github.com/pixelache"> <img id="img2" src="images/github.png" alt="GitHub"></a>
+   		 </div>
+	
+		
+		
+		
+		
+		
+	</body>
+</html>

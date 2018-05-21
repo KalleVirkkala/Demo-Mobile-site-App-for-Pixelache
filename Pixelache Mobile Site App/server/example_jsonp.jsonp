@@ -1,0 +1,149 @@
+storyjs_jsonp_data =
+{
+    "timeline":
+    {
+        "headline":"Welcome to the timeline here you can scroll through events!",
+        "type":"default",
+		"text":"People say stuff",
+		"startDate":"2014,04,11,16:00:00",
+        "date": [
+           
+            {
+                "startDate":"2014,04,10,16:00:00",
+				"endDate":"",
+                "headline":"Open Demo Afternoon",
+                "text":"<h4>Rautatientori 1,Helsinki</h4></br><p>SOMETHING INFO <a href='http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day1.html#1' target='_self'>Go to Event Site</a> </p>",
+                "asset":
+                {
+                    "media":"images/Open Demo Afternoon.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,04,10,17:00:00",
+                "headline":"Adventure Camping",
+                "text":"<h4>Lasipalatsi, 00100 Helsinki</h4></br><p>SOMETHING INFO <a href='http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day1.html#2' target='_self'>Go to Event Site</a> </p>",
+                "asset":
+                {
+                    "media":"images/Adventure Camping.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2014,04,10,10:00:00",
+                "headline":"Air Fair",
+                "text":"<h4>Kluuvi, Helsinki, Suomi</h4></br><p>SOMETHING INFO <a href='http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day1.html#3' target='_self'>Go to Event Site</a> </p>",
+                "asset":
+                {
+                    "media":"images/Air Fair.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2014,04,10,12:40:00",
+                "headline":"Printorama",
+                "text":"<h4>Kankurinkatu 14, Helsinki, Suomi</h4></br><p>SOMETHING INFO <a href='http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day1.html#4' target='_self'>Go to Event Site</a> </p>",
+                "asset":
+                {
+                    "media":"images/Printorama.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2014,04,11,14:30:00",
+                "headline":"Quake Dance",
+                "text":"<h4>Vuorimiehenkatu 8,Helsinki</h4></br><p>SOMETHING INFO <a href='http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day2.html#5' target='_self'>Go to Event Site</a> </p>",
+                "asset":
+                {
+                    "media":"images/Quake Dance.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+
+			{
+                "startDate":"2014,04,11,20:30:00",
+                "headline":"SpringJam",
+                "text":"<h4>Franzeninkatu 25,Helsinki</h4></br><p>SOMETHING INFO <a href='http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day2.html#6' target='_self'>Go to Event Site</a> </p>",
+                "asset":
+                {
+                    "media":"images/SpringJam.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2014,04,11,12:50:00",
+                "headline":"Thread the Noodle",
+                "text":"<h4> Lutherinkatu 1,Temppelikirkon puisto/park,Helsinki</h4></br><p>SOMETHING INFO <a href='http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day2.html#7' target='_self'>Go to Event Site</a> </p>",
+                "asset":
+                {
+                    "media":"images/Thread the Noodle.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2014,04,11,15:40:00",
+                "headline":"Motovation",
+                "text":"<h4>Maire Jäntti Oy,Hakaniemenranta 14,Helsinki</h4></br><p>SOMETHING INFO <a href='http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day2.html#8' target='_self'>Go to Event Site</a> </p>",
+                "asset":
+                {
+                    "media":"images/Motovation.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2014,04,12,16:35:00",
+                "headline":"Jalapeño Fire Waltz",
+                "text":"<h4>Vuorimiehenpuistikko 4,Helsinki</h4></br><p>SOMETHING INFO <a href='http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day3.html#9' target='_self'>Go to Event Site</a> </p>",
+                "asset":
+                {
+                    "media":"images/Fire Waltz.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2014,04,12,15:35:00",
+                "headline":"GoTee",
+                "text":"<h4>Lastenlehdon puisto,Ruoholahdenkatu 1,Helsinki</h4></br><p>SOMETHING INFO <a href='http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day3.html#10' target='_self'>Go to Event Site</a> </p>",
+                "asset":
+                {
+                    "media":"images/GoTee.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2014,04,12,12:35:00",
+                "headline":"Event You All",
+                "text":"<h4>Seurasaari, 00250 Helsinki</h4></br><p>SOMETHING INFO <a href='http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day3.html#11' target='_self'>Go to Event Site</a> </p>",
+                "asset":
+                {
+                    "media":"images/Event You All.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2014,04,12,13:00:00",
+                "headline":"Earth Cup",
+                "text":"<h4>Jan-Magnus Janssonin aukio 1 Arcada,Helsinki</h4></br><p>SOMETHING INFO <a href='http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day3.html#12' target='_self'>Go to Event Site</a> </p>",
+                "asset":
+                {
+                    "media":"images/Earth Cup.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            }
+			
+                     
+        ]
+    }
+}

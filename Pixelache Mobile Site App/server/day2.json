@@ -1,0 +1,31 @@
+
+{
+	
+		
+   	 "items": [
+	 {
+		"time": "13.30",
+		"title": "Event 4",
+            "description": "SOMETHING INFO",
+	    "detail":"oiahdsgföiousdhguihg ijasfruy gewqiuhg fiugewqrhiuw waeiulh fbwae ghfaweiufg iuwaer awjehbg earwjgh awiuhg oaierg iuearg kjaherg aelijg aerglij aerhgoi argkljharelkdjg i eraoihgaköjdhfgzdkjb",
+            "lat": 60.159466,
+            "lng": 24.936776
+        	},
+        	{
+			"time": "14.30",
+            "title": "Event 5",
+            "description": "SOMETHING INFO",
+	    "detail":"oiahdsgföiousdhguihg ijasfruy gewqiuhg fiugewqrhiuw waeiulh fbwae ghfaweiufg iuwaer awjehbg earwjgh awiuhg oaierg iuearg kjaherg aelijg aerglij aerhgoi argkljharelkdjg i eraoihgaköjdhfgzdkjb",
+            "lat": 60.160021,
+            "lng": 24.951839
+        	},
+        	{
+			"time": "15.20",
+            "title": "Event 6",
+            "description": "SOMETHING INFO",
+	    "detail":"oiahdsgföiousdhguihg ijasfruy gewqiuhg fiugewqrhiuw waeiulh fbwae ghfaweiufg iuwaer awjehbg earwjgh awiuhg oaierg iuearg kjaherg aelijg aerglij aerhgoi argkljharelkdjg i eraoihgaköjdhfgzdkjb",
+            "lat": 60.185422,
+            "lng": 24.952097
+     		}
+			]
+			}

@@ -1,0 +1,180 @@
+﻿
+{
+	
+		
+   	 "items": [
+       	 	{
+			"day": 1,
+			"date": "2014/04/10 16:00",
+			"adress":"Rautatientori 1,Helsinki",
+			"openid":1,
+            "title":"Open Demo Afternoon",
+			"img":"images/Open Demo Afternoon.jpg",
+            "description": "SOMETHING INFO",
+			"detail":"As part of their production residency (15-29.5), Usinette & Defko Yaw Rek (translates as ‘Do-it-Yourself’ in wolof), propose a demo afternoon at Made in Kallio, open for anyone to participate and for which no specific background is required.The Demo hosts Ursula, Alex and Edgar will introduce a 3D printer from the RepRap project, and show how it works and how you can build one yourself. They will also present another self-made tool, a plastic extruder whose main function is to recycle plastic from plastic bags or milk bottle corks. The demo will focus especially on plastic and on how it can be collected and re-used to make thread for 3D printers. Together, we will melt High-density polyethylene (HDPE) plastic from plastic bags with the extruder and we will produce a new filament of plastic.The participants are asked to bring different kind of plastic trash with them. For the demo, we’ll use PE plastic, but this demo will be the occasion to learn about the different kinds of plastics that we usually find in our trashes.Welcome to exchange and share ideas on plastic recycling and more generally on DIY / DIWO digital fabrication!",
+            "lat": 60.171344,
+            "lng": 24.941347,
+			"maplink":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7938.118448773064!2d24.945391769898507!3d60.171965708913454!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDEwJzE2LjgiTiAyNMKwNTYnMjguOSJF!5e0!3m2!1ssv!2sfi!4v1418829410081",
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day1.html#1"
+        	},
+        	{
+			"day": 1,		
+			"date": "2014/04/10 17:00",
+			"adress":"Lasipalatsi, 00100 Helsinki",
+			"openid":2,
+            "title": "Adventure Camping",
+			"img":"images/Adventure Camping.jpg",
+            "description": "SOMETHING INFO",
+			"detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt feugiat leo, nec sollicitudin ligula. Sed id consectetur turpis. Aliquam ut lorem venenatis, consequat justo ut, ullamcorper sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et turpis turpis. Proin eget sapien magna. Nullam laoreet sagittis augue nec porta. Ut lectus elit, blandit congue ante ut, euismod venenatis metus. Praesent vitae nibh nunc. Morbi varius vehicula quam nec fringilla. Mauris velit arcu, tristique vitae ex dictum, pulvinar interdum sapien. Nulla ullamcorper mi vel turpis convallis, in porta velit ullamcorper. Nunc pellentesque aliquet ex, in auctor lorem convallis vel.",
+            "lat": 60.168505,
+            "lng": 24.938858,
+			"maplink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7939.1926199939635!2d24.944040027376257!3d60.16752029602591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDEwJzA2LjYiTiAyNMKwNTYnMTkuOSJF!5e0!3m2!1ssv!2sfi!4v1418829898208",
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day1.html#2"
+        	},
+        	{
+			"day": 1,
+			"date": "2014/04/10 10:00",
+			"adress":"Kluuvi, Helsinki, Suomi",
+			"openid":3,
+            "title": "Air Fair",
+			"img":"images/Air Fair.jpg",
+            "description": "SOMETHING INFO",
+			"detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt feugiat leo, nec sollicitudin ligula. Sed id consectetur turpis. Aliquam ut lorem venenatis, consequat justo ut, ullamcorper sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et turpis turpis. Proin eget sapien magna. Nullam laoreet sagittis augue nec porta. Ut lectus elit, blandit congue ante ut, euismod venenatis metus. Praesent vitae nibh nunc. Morbi varius vehicula quam nec fringilla. Mauris velit arcu, tristique vitae ex dictum, pulvinar interdum sapien. Nulla ullamcorper mi vel turpis convallis, in porta velit ullamcorper. Nunc pellentesque aliquet ex, in auctor lorem convallis vel.",
+            "lat": 60.169636,
+            "lng": 24.948771,
+			"maplink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.6703489945935!2d24.948771!3d60.169636000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDEwJzEwLjciTiAyNMKwNTYnNTUuNiJF!5e0!3m2!1ssv!2sfi!4v1418829958321",
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day1.html#3"
+     		},
+			{
+			"day": 1,
+			"date": "2014/04/10 2:40",
+			"adress":"Kankurinkatu 14",
+			"openid":4,
+			"title": "Printorama",
+			"img":"images/Printorama.jpg",
+            "description": "SOMETHING INFO",
+			"detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt feugiat leo, nec sollicitudin ligula. Sed id consectetur turpis. Aliquam ut lorem venenatis, consequat justo ut, ullamcorper sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et turpis turpis. Proin eget sapien magna. Nullam laoreet sagittis augue nec porta. Ut lectus elit, blandit congue ante ut, euismod venenatis metus. Praesent vitae nibh nunc. Morbi varius vehicula quam nec fringilla. Mauris velit arcu, tristique vitae ex dictum, pulvinar interdum sapien. Nulla ullamcorper mi vel turpis convallis, in porta velit ullamcorper. Nunc pellentesque aliquet ex, in auctor lorem convallis vel.",
+            "lat": 60.159466,
+            "lng": 24.936776,
+			"maplink":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1985.2846762742427!2d24.936776!3d60.159466!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDA5JzM0LjEiTiAyNMKwNTYnMTIuNCJF!5e0!3m2!1ssv!2sfi!4v1418829986632",
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day1.html#4"
+        	},
+        	{
+			"day": 2,
+			"date": "2014/05/10 14:30",
+			"adress":"Vuorimiehenkatu 8",
+			"openid":5,
+            "title": "Quake Dance",
+			"img":"images/Quake Dance.jpg",
+            "description": "SOMETHING INFO",
+			"detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt feugiat leo, nec sollicitudin ligula. Sed id consectetur turpis. Aliquam ut lorem venenatis, consequat justo ut, ullamcorper sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et turpis turpis. Proin eget sapien magna. Nullam laoreet sagittis augue nec porta. Ut lectus elit, blandit congue ante ut, euismod venenatis metus. Praesent vitae nibh nunc. Morbi varius vehicula quam nec fringilla. Mauris velit arcu, tristique vitae ex dictum, pulvinar interdum sapien. Nulla ullamcorper mi vel turpis convallis, in porta velit ullamcorper. Nunc pellentesque aliquet ex, in auctor lorem convallis vel.",
+            "lat": 60.160021,
+            "lng": 24.951839,
+			"maplink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.2511526526189!2d24.951838999999996!3d60.16002100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDA5JzM2LjEiTiAyNMKwNTcnMDYuNiJF!5e0!3m2!1ssv!2sfi!4v1418830016226",
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day2.html#5"			
+        	},
+        	{
+			"day": 2,
+			"date": "2014/05/10 20:30",
+			"adress":"Franzeninkatu 25",
+			"openid":6,
+            "title": "SpringJam",
+			"img":"images/SpringJam.jpg",
+            "description": "SOMETHING INFO",
+			"detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt feugiat leo, nec sollicitudin ligula. Sed id consectetur turpis. Aliquam ut lorem venenatis, consequat justo ut, ullamcorper sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et turpis turpis. Proin eget sapien magna. Nullam laoreet sagittis augue nec porta. Ut lectus elit, blandit congue ante ut, euismod venenatis metus. Praesent vitae nibh nunc. Morbi varius vehicula quam nec fringilla. Mauris velit arcu, tristique vitae ex dictum, pulvinar interdum sapien. Nulla ullamcorper mi vel turpis convallis, in porta velit ullamcorper. Nunc pellentesque aliquet ex, in auctor lorem convallis vel.",
+            "lat": 60.185422,
+            "lng": 24.952097,
+			"maplink":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1983.7166587293543!2d24.952097!3d60.185421999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDExJzA3LjUiTiAyNMKwNTcnMDcuNSJF!5e0!3m2!1ssv!2sfi!4v1418830034043",
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day2.html#6"   
+			},
+		 {
+			"day": 2,
+			"date": "2014/05/10 2:50",
+			"adress":"Lutherinkatu 1,Temppelikirkon puisto/park",
+			"openid":7,
+			"title": "Thread the Noodle",
+			"img":"images/Thread the Noodle.jpg",
+            "description": "SOMETHING INFO",
+			"detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt feugiat leo, nec sollicitudin ligula. Sed id consectetur turpis. Aliquam ut lorem venenatis, consequat justo ut, ullamcorper sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et turpis turpis. Proin eget sapien magna. Nullam laoreet sagittis augue nec porta. Ut lectus elit, blandit congue ante ut, euismod venenatis metus. Praesent vitae nibh nunc. Morbi varius vehicula quam nec fringilla. Mauris velit arcu, tristique vitae ex dictum, pulvinar interdum sapien. Nulla ullamcorper mi vel turpis convallis, in porta velit ullamcorper. Nunc pellentesque aliquet ex, in auctor lorem convallis vel.",
+            "lat": 60.173215,
+            "lng": 24.925919,
+			"maplink":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1984.4541416574373!2d24.925919!3d60.173215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDEwJzIzLjYiTiAyNMKwNTUnMzMuMyJF!5e0!3m2!1ssv!2sfi!4v1418830056499",
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day2.html#7"
+        	},
+        	{
+			"day": 2,
+			"date": "2014/05/10 15:40",
+			"adress":"Maire Jäntti Oy,Hakaniemenranta 14",
+			"openid":8,
+            "title": "Motovation",
+			"img":"images/Motovation.jpg",
+            "description": "SOMETHING INFO",
+			"detail":"Lorem ipsum dolMotovationor sit amet, consectetur adipiscing elit. Nunc tincidunt feugiat leo, nec sollicitudin ligula. Sed id consectetur turpis. Aliquam ut lorem venenatis, consequat justo ut, ullamcorper sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et turpis turpis. Proin eget sapien magna. Nullam laoreet sagittis augue nec porta. Ut lectus elit, blandit congue ante ut, euismod venenatis metus. Praesent vitae nibh nunc. Morbi varius vehicula quam nec fringilla. Mauris velit arcu, tristique vitae ex dictum, pulvinar interdum sapien. Nulla ullamcorper mi vel turpis convallis, in porta velit ullamcorper. Nunc pellentesque aliquet ex, in auctor lorem convallis vel.",
+            "lat": 60.178551,
+            "lng": 24.959307,
+			"maplink":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1984.13177959833!2d24.959306999999995!3d60.178551000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDEwJzQyLjgiTiAyNMKwNTcnMzMuNSJF!5e0!3m2!1ssv!2sfi!4v1418830075945",
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day2.html#8"
+        	},
+        	{
+			"day": 3,
+			"date": "2014/06/10 16:35",
+			"adress":"Vuorimiehenpuistikko 4",
+			"openid":9,
+            "title": "Jalapeño Fire Waltz",
+			"img":"images/Fire Waltz.jpg",
+            "description": "SOMETHING INFO",
+			"detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt feugiat leo, nec sollicitudin ligula. Sed id consectetur turpis. Aliquam ut lorem venenatis, consequat justo ut, ullamcorper sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et turpis turpis. Proin eget sapien magna. Nullam laoreet sagittis augue nec porta. Ut lectus elit, blandit congue ante ut, euismod venenatis metus. Praesent vitae nibh nunc. Morbi varius vehicula quam nec fringilla. Mauris velit arcu, tristique vitae ex dictum, pulvinar interdum sapien. Nulla ullamcorper mi vel turpis convallis, in porta velit ullamcorper. Nunc pellentesque aliquet ex, in auctor lorem convallis vel.",
+            "lat": 60.158825,
+            "lng": 24.947548,
+			"maplink":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1985.3233943153318!2d24.947548!3d60.15882499999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDA5JzMxLjgiTiAyNMKwNTYnNTEuMiJF!5e0!3m2!1ssv!2sfi!4v1418830099892",
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day3.html#9"
+     		},
+			{
+			"day": 3,
+			"date": "2014/06/10 15:35",
+			"adress":"Lastenlehdon puisto,Ruoholahdenkatu",
+			"openid":10,
+            "title": "GoTee",
+			"img":"images/GoTee.jpg",
+            "description": "SOMETHING INFO",
+			"detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt feugiat leo, nec sollicitudin ligula. Sed id consectetur turpis. Aliquam ut lorem venenatis, consequat justo ut, ullamcorper sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et turpis turpis. Proin eget sapien magna. Nullam laoreet sagittis augue nec porta. Ut lectus elit, blandit congue ante ut, euismod venenatis metus. Praesent vitae nibh nunc. Morbi varius vehicula quam nec fringilla. Mauris velit arcu, tristique vitae ex dictum, pulvinar interdum sapien. Nulla ullamcorper mi vel turpis convallis, in porta velit ullamcorper. Nunc pellentesque aliquet ex, in auctor lorem convallis vel.",
+            "lat": 60.166406,
+            "lng": 24.927793,
+			"maplink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7939.316031270111!2d24.927089740609443!3d60.16700955092938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDA5JzU5LjEiTiAyNMKwNTUnNDAuMCJF!5e0!3m2!1ssv!2sfi!4v1418830128576",
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day3.html#10"
+     		},
+			{
+			"day": 3,
+			"date": "2014/06/10 12:35",
+			"adress":"Seurasaari, 00250 Helsinki",
+			"openid":11,
+            "title": "Event You All",
+			"img":"images/Event You All.jpg",
+            "description": "SOMETHING INFO",
+			"detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt feugiat leo, nec sollicitudin ligula. Sed id consectetur turpis. Aliquam ut lorem venenatis, consequat justo ut, ullamcorper sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et turpis turpis. Proin eget sapien magna. Nullam laoreet sagittis augue nec porta. Ut lectus elit, blandit congue ante ut, euismod venenatis metus. Praesent vitae nibh nunc. Morbi varius vehicula quam nec fringilla. Mauris velit arcu, tristique vitae ex dictum, pulvinar interdum sapien. Nulla ullamcorper mi vel turpis convallis, in porta velit ullamcorper. Nunc pellentesque aliquet ex, in auctor lorem convallis vel.",
+            "lat": 60.183549,
+            "lng": 24.886597,
+			"maplink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.8298214164672!2d24.88659700000001!3d60.183548999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDExJzAwLjgiTiAyNMKwNTMnMTEuOCJF!5e0!3m2!1ssv!2sfi!4v1418830153423",
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day3.html#11"
+     		},
+			{
+			"day": 3,
+			"date": "2014/06/10 13:35",
+			"adress":"Jan-Magnus Janssonin aukio 1",
+			"openid":12,
+            "title": "Earth Cup",
+			"img":"images/Earth Cup.jpg",
+            "description": "SOMETHING INFO",
+			"detail":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt feugiat leo, nec sollicitudin ligula. Sed id consectetur turpis. Aliquam ut lorem venenatis, consequat justo ut, ullamcorper sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et turpis turpis. Proin eget sapien magna. Nullam laoreet sagittis augue nec porta. Ut lectus elit, blandit congue ante ut, euismod venenatis metus. Praesent vitae nibh nunc. Morbi varius vehicula quam nec fringilla. Mauris velit arcu, tristique vitae ex dictum, pulvinar interdum sapien. Nulla ullamcorper mi vel turpis convallis, in porta velit ullamcorper. Nunc pellentesque aliquet ex, in auctor lorem convallis vel.",
+            "lat": 60.201510,
+            "lng": 24.965782,
+			"maplink":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63426.43749498275!2d25.014629210374004!3d60.212570404638825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDEyJzA1LjQiTiAyNMKwNTcnNTYuOCJF!5e0!3m2!1ssv!2sfi!4v1418830195363",
+			"link": "http://people.arcada.fi/~virkkalk/html/Real%20time%20web/project/Jokrup%20mobile%20app/day3.html#12"
+     		}
+			
+	    ],
+	"options":{
+        "time":true,
+        "timeFormat":"HH:mm"
+    }
+}

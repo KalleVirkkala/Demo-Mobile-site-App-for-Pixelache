@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Map</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+		<script src="js/jquery.js"></script>
+		<script src="_assets/js/index.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbePafkCv64WYgBWKv1TpfU8itTmrHcKk"></script>
+
+
+<script type="text/javascript">
+/*
+	
+	
+	
+$( document ).on( "pageinit", function() {
+    var defaultLatLng = new google.maps.LatLng(60.174231, 24.940639);  // Default to Helsinki
+    if ( navigator.geolocation ) {
+        function success(pos) {
+            // Location found, show map with these coordinates
+            drawMap(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
+        }
+        function fail(error) {
+            drawMap(defaultLatLng);  // Failed to find location, show default map
+        }
+        // Find the users current position.  Cache the location for 5 minutes, timeout after 6 seconds
+        navigator.geolocation.getCurrentPosition(success, fail, {maximumAge: 500000, enableHighAccuracy:true, timeout: 6000});
+    } else {
+        drawMap(defaultLatLng);  // No geolocation support, show default map
+    }
+
+	});	
+    function drawMap(latlng) {
+        var myOptions = {
+            zoom: 14,
+            center: latlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+		
+        var map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
+        // Add an overlay to the map of current lat/lng
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            title: "Greetings!",
+			icon : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+        });
+    
+//GET markers from json file
+
+  $.getJSON("day1.json", {}, function(data){ 
+			$.each(data.items, function(i, item){
+			$("#markers").append('<li><a href="#" rel="' +  + '">' + item.title +'</a></li>');
+				
+				var marker = new google.maps.Marker({
+					position: new google.maps.LatLng(item.lat, item.lng),
+					map: map,
+					title: item.title 
+					
+				});
+				
+			
+				
+				
+			
+				var infowindow = new google.maps.InfoWindow({content: "<h3>"+ item.title +"</h3><p>"+ item.description +"</p>" +'<a href="'+ item.link+'"  rel="external">Go to Event</a>'});
+				
+				
+				
+				google.maps.event.addListener(marker, 'click', function() { 
+				map.setCenter(marker.getPosition());
+				 
+					
+					infowindow.open(map, marker); 
+					
+							
+							  
+							
+							 
+						}); 
+						
+						
+						
+						google.maps.event.addListener(map, 'click', function() {
+						infowindow.close();
+						});
+						
+						
+						
+				}); 
+			
+		});
+		
+
+				
+
+			
+ 
+			
+				
+				
+	
+}	*/
+</script>
+
+<script>
+
+$(document).on("pageshow", "#map_page", function () {
+            initialize();
+        });
+
+        $(document).on('click', '#getDirectionsSubmit', function (e) {
+            e.preventDefault();
+            calculateRoute();
+        });
+
+        $(document).on('click', '#getCurrentLoc', function (e) {
+            e.preventDefault();
+            findCurrentPosition();
+        });
+
+        var directionDisplay,
+            directionsService = new google.maps.DirectionsService(),
+            map;
+        var geocoder = new google.maps.Geocoder();
+
+        function initialize() {
+            // set the default center of the map
+            var mapCenter = new google.maps.LatLng(60.174231, 24.940639);
+            // set route options (draggable means you can alter/drag the route in the map)
+            var rendererOptions = { draggable: true };
+            directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions);
+
+            //updateMapSize(mapCenter);
+            // set the display options for the map
+            var myOptions = {
+                mapTypeControl: false,
+                zoom: 12,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                center: mapCenter
+            }
+            // add the map to the map placeholder
+            map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+            // bind the map to the directions
+            directionsDisplay.setMap(map);
+            // point the directions to the container for the direction details
+            directionsDisplay.setPanel(document.getElementById("directionsPanel"));         
+
+        }
+
+        function notFound(msg) {
+            alert('Could not find your location :(')
+        }
+
+        function findCurrentPosition() {   
+            // start the geolocation API
+            if (navigator.geolocation) {
+                // when geolocation is available on your device, run this function
+                navigator.geolocation.getCurrentPosition(foundYou, notFound);
+            } else {
+                // when no geolocation is available, alert this message
+                alert('Geolocation not supported or not enabled.');
+            }
+        }
+
+        function foundYou(position) {
+            // convert the position returned by the geolocation API to a google coordinate object
+            var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+            // then try to reverse geocode the location to return a human-readable address
+            geocoder.geocode({ 'latLng': latlng }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    // if the geolocation was recognized and an address was found
+                    if (results[0]) {
+                        // add a marker to the map on the geolocated point
+						var images = url="images/green-dot.png"
+                        marker = new google.maps.Marker({
+                            position: latlng,                   
+                            map: map,
+							icon: images
+                        });
+                        // compose a string with the address parts
+                        var address = results[0].address_components[1].long_name + ' ' + results[0].address_components[0].long_name + ', ' + results[0].address_components[3].long_name
+                        // set the located address to the link, show the link and add a click event handler
+
+                            // onclick, set the geocoded address to the start-point formfield
+                            $('#from').text(address);
+                            $('#from').val(address);
+                            // call the calcRoute function to start calculating the route        
+                    }
+                } else {
+                    // if the address couldn't be determined, alert and error with the status message
+                    alert("Geocoder failed due to: " + status);
+                }
+            });
+        }
+
+        function calculateRoute() {
+            var selectedtravelMode = $('#mode option:selected').val();
+            // alert(selectedtravelMode);
+            start = $("#from").val();
+                end = $("#to").val();
+
+            if (start == '' || end == '') {
+                // cannot calculate route
+                $("#results").hide();
+                return;
+            }
+            else {
+                var request = {
+                    origin: start,
+                    destination: end,                    
+                    travelMode: google.maps.DirectionsTravelMode[selectedtravelMode]
+                };
+
+                directionsService.route(request, function (response, status) {
+                    if (status == google.maps.DirectionsStatus.OK) {
+                        directionsDisplay.setDirections(response);
+                        $("#results").show();                   
+                    }
+                    else {
+                        $("#results").hide();
+                    }
+                });
+
+            }
+        }
+		//get Json markers
+		$.getJSON("server/events.json", {}, function(data){ 
+			$.each(data.items, function(i, item){
+			$("#markers").append('<li><a href="#" rel="' +  + '">' + item.title +'</a></li>');
+				
+				var marker = new google.maps.Marker({
+					position: new google.maps.LatLng(item.lat, item.lng),
+					map: map,
+					title: item.title 
+					
+				});
+
+			
+				var infowindow = new google.maps.InfoWindow({content: "<h3>"+ item.title +"</h3><h4>"+item.adress+"</h4><p>"+ item.description +"</p>" +'<a href="'+ item.link+'"  rel="external">Go to Event</a>'});
+
+				google.maps.event.addListener(marker, 'click', function() { 
+				map.setCenter(marker.getPosition());
+				 
+					
+					infowindow.open(map, marker); 
+					
+							
+							  
+							
+							 
+						}); 
+						//get marker position to direction
+						google.maps.event.addListener(marker, 'click', function() { 
+						$("#to").val(marker.getPosition());
+						});
+						//close all infowindows on map click
+						google.maps.event.addListener(map, 'click', function() {
+						infowindow.close();
+						});
+						
+						
+						
+				}); 
+			
+		});
+		
+
+
+    </script>
+
+
+</head>
+<body>
+<div data-role="page" id="map_page">
+    <div data-role="header" id="home" >
+    <h1 role="banner">Maps</h1>
+	<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+			<a href="#" class="ui-btn" data-rel="back">Back</a>
+    </div>
+           <div data-role="content" class="ui-content">
+            <div>
+                <div id="map_canvas" style="width: 100%; height:450px;"></div>
+                <div data-role="my-ui-field-contain">
+                    <!--<div>
+            <label for="mode" class="select">Transportation method:</label>
+        </div>-->
+                    <div>
+                        <select name="select-choice-0" id="mode">
+                            <option value="TRANSIT">Public Transit</option>
+                            <option value="DRIVING">Driving</option>
+                            <option value="WALKING">Walking</option>
+                            <option value="BICYCLING">Bicycling</option>
+                        </select>
+                    </div>
+                </div>                
+                <div data-role="my-ui-field-contain">
+                    <input type="text" id="from" placeholder="From Address" value="" /><button id="getCurrentLoc" data-icon="star">Get/Use Current Location</button>
+                </div>
+                <div data-role="my-ui-field-contain">
+                    <input type="text" id="to" placeholder="To Destination" value="" />
+                </div>
+                <a data-icon="search" data-role="button" href="#" id="getDirectionsSubmit">Get directions</a>
+            </div>
+		
+            <div id="results" style="display:none;">
+                <div id="directionsPanel"></div>
+            </div>
+        </div>
+		<div data-role="panel" data-display="push" data-theme="b" id="nav-panel">	
+       			<div data-role="collapsibleset">
+					
+					<a href="index.html" rel="external" class="ui-btn ui-corner-all" >Home</a>
+					<a href="page1.html" rel="external" class="ui-btn ui-corner-all">Timescedule</a>
+					<a href="day1.html" class="ui-btn ui-corner-all">Events</a>
+					<a href="page2.html" rel="external" class="ui-btn ui-corner-all">Map</a>
+					<a href="info.html" rel="external" class="ui-btn ui-corner-all">Info</a>	
+					<a href="page5.html" class="ui-btn ui-corner-all">Social</a>
+				</div>
+				<style>
+				img{
+					height:10%;
+					width:10%;
+				
+				}
+				
+				</style>
+				<p float="mid">Follow us on</p>
+				<a href="http://www.facebook.com/pixelache" target="_blank">
+				<img src="images/Facebook.png" alt=""></a>
+				<a href="http://twitter.com/pixelache" target="_blank"><img src="images/Twitter.png" alt=""></a>
+				<a href="https://vimeo.com/pixelache" target="_blank"><img src="images/vimeo.png" alt=""></a>
+				<a href="http://www.flickr.com/photos/pixelache/"><img src="images/flickr.png" alt="Flickr"></a> 
+				<a href="http://bambuser.com/channel/pixelversity"><img src="images/Bambuser.png" alt="Bambuser"></a>
+				<a href="https://github.com/pixelache"> <img src="images/github.png" alt="GitHub"></a>
+   		 </div>
+	
+</div>
+</body>
+</html>
